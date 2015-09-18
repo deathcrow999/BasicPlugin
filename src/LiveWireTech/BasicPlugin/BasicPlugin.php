@@ -12,5 +12,9 @@ class BasicPlugin extends PluginBase{
     if($cmdName === "greetme"){
       $sender->sendMessage("Sent a greetings message")
     }
+    return true;
   }
+  return false;
 }
+
+?>
