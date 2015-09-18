@@ -10,7 +10,7 @@ commands:
   aliases: [hi, greeting,greets]
   permission: BasicPlugin.command.greetme
 permissions: 
- BasicPlugin.command.greetme
+ BasicPlugin.command.greetme:
   default: op
   description: Permission to use greetme command
   
