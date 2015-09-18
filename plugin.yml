@@ -1,0 +1,16 @@
+name: BasicPlugin
+author: LiveWireTech
+version: 1.0.0
+api: 1.12.0
+description: BasicPlugin
+commands:
+ greetme:
+  usage: /greetme
+  description:  display greet message to user
+  aliases: [hi, greeting,greets]
+  permission: BasicPlugin.command.greetme
+permissions: 
+ BasicPlugin.command.greetme
+  default: op
+  description: Permission to use greetme command
+  
